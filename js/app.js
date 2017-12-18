@@ -77,3 +77,20 @@ function getDataByCity(event) {
   var gen = Object.keys(data[city]);
   console.log(gen);
 }
+
+/*
+var generations = Object.keys(data);
+console.log(generations);
+var content = document.getElementById("contenido");
+for(i=0; i<generations.length; i++){
+ var button1 = document.createElement("ul");
+ button1.innerHTML = generations[i];
+ button1.onclick = getDataByGenerations;
+ //content[0].appendChild(contenido);
+}
+function getDataByGenerations(event) {
+ var cote = event.srcElement.innerHTML;
+ var but = Object.keys(data[cote]);
+ console.log(but);
+}
+ */
