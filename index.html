@@ -10,16 +10,18 @@
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
     <!--Añadiendo libreria Chart js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   </head>
   <body>
     <header id="menu">
-      <img src="assets/images/logo.png" alt="">
+      <div>
+      <!--  <img src="./assets/images/logo-laboratoria.svg" alt="">-->
+      </div>
       <div class="b-menu">
       <!--button-->
       </div>
     </header>
-
-    <section id="contenido">
+    <!--<section id="contenido">
       <div>
         <ul>
           <li><a href="#">GENERACIONES</a></li>
@@ -27,13 +29,28 @@
           <li><a href="#">PROFESORES</a></li>
         </ul>
       </div>
+    </section>-->
+
+    <section id="active-students">
+      <div>
+        <canvas id="arequipa"></canvas>
+      </div>
+      <div>
+        <canvas id="cdmx"></canvas>
+      </div>
+      <div>
+        <canvas id="lima"></canvas>
+      </div>
+      <div>
+        <canvas id="santiago"></canvas>
+      </div>
     </section>
 
-    <section >
-      <div id="grafica">
-        <p>aqui mostraremos las graficas</p>
-
-      </div>
+    <section id="desertion">
+      <div id="aqpcomparacion"></div>
+      <div id="cdmxcomparacion"></div>
+      <div id="limacomparacion"></div>
+      <div id="sclcomparacion"></div>
     </section>
 
      <!--Mostrando logos de contacto-->
@@ -47,10 +64,9 @@
         <i class="fa fa-dribbble" aria-hidden="true"></i>
       </div>
     </footer>
-    <!--<canvas id="myChart" width="400" height="400"></canvas>-->
-		<!-- Base de datos -->
-		<script src="./js/data.js"></script>
-		<!-- Aquí va tus archivos JS -->
+    <!-- Base de datos -->
+    <script src="./js/data.js"></script>
+    <!-- Aquí va tus archivos JS -->
     <script src="./js/app.js"></script>
   </body>
 </html>

@@ -1,120 +1,141 @@
-/*
- * Estilos de tu proyecto
 
-font-family: 'Hind Siliguri', sans-serif;;
-font-family: 'Cardo', serif;
- */
- body {
-   background-image:url(../assets/images/planeta.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin: 0px;
-   padding: 0px;
+ /*
+  * Estilos de tu proyecto
+ font-family: 'Hind Siliguri', sans-serif;;
+ font-family: 'Cardo', serif;
+  */
+  body {
+    /*background-image:url(../assets/images/planeta.png);*/
+    background: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
 
-
+ button {
+   background: rgb(255,193,7);
+   border: none;
+   border-radius: 25px;
+   color: black;
+   cursor: pointer;
+   font-family: 'Hind Siliguri', sans-serif;
+   font-size: 25px;
+   height: 35px;
+   margin: 5px;
+   width: 15%;
  }
 
-button {
-  background: rgba(255,193,7,0.5);
-  border: none;
-  border-radius: 25px;
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Hind Siliguri', sans-serif;
-  font-size: 25px;
-  height: 35px;
-  margin: 5px;
-  width: 40%;
-}
+ img {
+   height: 80px ;
+   /*opacity:0.7;*/
+   width: 20%;
+ }
+/*
+ li {
+   //font-family: 'Hind Siliguri', sans-serif;//
+   font-size: 30px;
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+ }
 
-img {
-  height: 80%;
-  opacity:0.7;
-  width: 20%;
-}
+ ul {
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+ }
 
-li {
-  font-family: 'Hind Siliguri', sans-serif;
-  font-size: 30px;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
+ ul > li> a {
+   color: #fff;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+ }
 
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
+ ul > li> a:hover {
+   color: rgb(249, 213, 9);
+ }
+*/
+ #menu {
+   height:  100px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+ }
 
-ul > li> a {
-  color: #fff;
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-}
+ #contenido {
+   height: 200px;
+   margin: 0px;
+   padding: 0px;
+   width: 20%;
+ }
 
-ul > li> a:hover {
-  color: rgb(249, 213, 9);
-}
+ #location {
+   background: rgb(10, 39, 117);
+   color: #fff;
+   height: 150px;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+ }
 
-#menu {
-  background:rgba(10, 39, 117,0.3);
-  height:  100px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
+ .contact {
+   font-size: 20px;
+   margin: 0px;
+   padding: 0px;
+   text-align:center;
+ }
 
-#contenido {
-  height: 200px;
-  margin: 0px;
-  padding: 0px;
-  width: 20%;
-}
+ .contact > i {
+   height: 20px;
+   margin: 10px;
+ }
 
-#grafica {
-  border: 2px, solid, red;
-  color:white;
-  margin: 50px auto;
-  padding:50px;
-  width: 300px;
-}
+ footer > p {
+   color: #fff;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 40px;
+   padding: 0px;
+   text-align: center;
+   width: 30%;
+ }
 
-#location {
-  background-color: rgba(49,49,47,0.1);
-  height: 150px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
+ .b-menu {
+   display: inline-block;
+   text-align: center;
+   width: 75%;
+ }
 
-.contact {
+ canvas {
+   height: 300px !important;
+   width: 400px !important;
+ }
 
-  color: #fff;
-  font-size: 20px;
-  margin: 0px;
-  padding: 0px;
-  text-align:center;
-}
+ #active-students {
+   width: 50%;
+   margin-left: 25%;
+ }
 
-.contact > i {
-  height: 20px;
-  margin: 10px;
-}
+ #active-students > div {
+   background: white;
+   display: inline-block;
+   height: 300px;
+   margin: 0 17px;
+   width: 45%;
+ }
 
-footer > p {
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  margin-left: 40px;
-  padding: 0px;
-  text-align: center;
-  width: 30%;
-}
+ #donutchart {
+   height: 300px !important;
+   width: 400px !important;
+ }
 
-.b-menu {
-  display: inline-block;
-  text-align: center;
-  width: 50%;
-}
+ #desertion {
+   padding: 6%;
+   margin-left: 10%;
+ }
+
+ #desertion > div {
+   display: inline-block;
+ }
